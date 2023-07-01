@@ -1,0 +1,27 @@
+.card-main {
+     height: auto;
+     background-color: #FFF;
+    width: 278px;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    margin-top: -220px;
+    padding: 0px 20px 0px 0px;
+}
+
+.image__container img {
+    width: 125.5px;
+    height: 135.5px;   
+}
+
+.upper_container, .lower_container{
+    display: flex;
+    gap: 10px;
+}
+
+.cards .heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
