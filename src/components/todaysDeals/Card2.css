@@ -1,0 +1,34 @@
+.card-main {
+  height: auto;
+  background-color: #fff;
+  width: 278px;
+  height: 381px;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  z-index: 1;
+  margin-top: -220px;
+  padding: 20px 20px 20px 10px;
+}
+
+.image__containers img {
+  width: 110.5px;
+  height: 125.5px;
+}
+.image__containers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.upper_container,
+.lower_container {
+  display: flex;
+  gap: 20px;
+}
+
+.cards .heading {
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 10px;
+}
